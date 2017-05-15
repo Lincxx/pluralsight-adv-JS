@@ -9,7 +9,7 @@
 	padding: 5px;
 }
 #WorkArea
-{	left: 10px; 
+{	left: 10px;
 }
 #Messages
 {	left: 330px;
@@ -20,9 +20,7 @@
 .highlight
 {	background-color: yellow;
 }
-h5
+h4
 {	margin-top: -3px;
 	margin-bottom: -3px;
 }
-
-

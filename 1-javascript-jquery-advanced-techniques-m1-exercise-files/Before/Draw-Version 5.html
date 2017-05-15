@@ -10,7 +10,7 @@
 		</canvas>
 	</body>
 	<script>
-	_KSM = 
+	_KSM =
 	{	draw: function(left, top, width, height)
 		{	_KSM.drawNew(left, top, width, height, 'black', 'silver');
 		},
@@ -32,7 +32,9 @@
 	_KSM.draw(100, 100, 440, 280);
 	// Latest code
 	_KSM.drawNew(120, 120, 400, 240, 'burlywood', 'lemonchiffon');
+	_KSM.drawNew(140, 140, 360, 200, 'coral', 'pink');
 	// New team member makes this function call:
-	//_KSM.draw(10, 10, 100, 100, 'red', 'silver');
+	//here we called the stub function, which doesn't take any color parameters
+	_KSM.draw(10, 10, 100, 100, 'red', 'silver');
 	</script>
 </html>

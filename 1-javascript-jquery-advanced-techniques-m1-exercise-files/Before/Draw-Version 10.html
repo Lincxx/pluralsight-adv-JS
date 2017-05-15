@@ -10,7 +10,7 @@
 		</canvas>
 	</body>
 	<script>
-	_KSM = 
+	_KSM =
 	{	draw: function(left, top, width, height, stroke, fill)
 		{	//	Draw something on the canvas
 			var canvas = document.getElementById('theCanvas'),
@@ -36,12 +36,12 @@
 				options.height = options.height || _KSM.drawOptions.height;
 				options.stroke = options.stroke || _KSM.drawOptions.stroke;
 				options.fill = options.fill || _KSM.drawOptions.fill;
-				
+
 				context.strokeStyle = options.stroke;
 				context.fillStyle = options.fill;
-				context.fillRect(options.left, options.top, 
+				context.fillRect(options.left, options.top,
 								 options.width, options.height);
-				context.strokeRect(options.left, options.top, 
+				context.strokeRect(options.left, options.top,
 								 options.width, options.height);
 			}
 		},
@@ -51,7 +51,7 @@
 			stroke: 'black', fill: 'silver',
 			clear: false
 		}
-			
+
 	}
 	// Legacy code
 	_KSM.drawOptions.stroke = '#44F';

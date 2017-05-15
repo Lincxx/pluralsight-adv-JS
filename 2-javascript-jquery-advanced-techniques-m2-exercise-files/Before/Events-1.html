@@ -7,18 +7,21 @@
 	</head>
 	<body>
 		<div id="WorkArea">
-			<h5>Work Area</h5>
+			<h4>Work Area</h4>
 			<hr />
 			<input type="button" class="clickable" value="Click Me" />
 		</div>
 		<div id="Messages" >
-			<h5>Messages</h5>
+			<h4>Messages</h4>
 			<hr />
 		</div>
 	</body>
 	<script>
-	$(function()
-	{			
+	$(function() //short for document.ready
+	{
+		$('.clickable').click(function(){
+			$('#Messages').append('click occurred<br/>');
+		});
 	});
 	</script>
 </html>
